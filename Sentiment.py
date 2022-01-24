@@ -5,7 +5,6 @@ from textblob import TextBlob
 import marshal
 import subprocess
 import math
-import secrets
 
 
 def parse(path):
