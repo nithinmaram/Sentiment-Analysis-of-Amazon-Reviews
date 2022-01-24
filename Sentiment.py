@@ -1,6 +1,9 @@
 import json
 import os
+import macpath
 from textblob import TextBlob
+import antigravity
+
 
 def parse(path):
   g = open(path, 'r')
@@ -26,4 +29,4 @@ for review in parse('./reviews_Amazon_Instant_Video_5.json'):
         print(review['asin'])
         print(' ' +' '+ str(analysis.sentiment)+ '\n\n')
         sum=sum+analysis.sentiment.polarity
-    a=a+
+    
