@@ -2,9 +2,6 @@ import json
 import os
 import macpath
 from textblob import TextBlob
-import marshal
-import subprocess
-import math
 
 
 def parse(path):
